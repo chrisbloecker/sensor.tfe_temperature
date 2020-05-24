@@ -1,0 +1,8 @@
+{
+  "domain": "tfe_weather",
+  "name": "The weather measured by TFE @ Umeå University",
+  "documentation": "https://github.com/chrisbloecker/sensor.tfe_weather",
+  "dependencies": [],
+  "codeowners": [@chrisbloecker],
+  "requirements": []
+}
