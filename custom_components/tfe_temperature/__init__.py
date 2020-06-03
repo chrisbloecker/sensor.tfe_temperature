@@ -1,0 +1,1 @@
+"""TFE temperature sensor integration."""

@@ -1,1 +1,0 @@
-"""TFE weather sensor integration."""
