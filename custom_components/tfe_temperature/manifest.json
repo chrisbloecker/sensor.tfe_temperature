@@ -4,5 +4,6 @@
   "documentation": "https://github.com/chrisbloecker/sensor.tfe_temperature",
   "dependencies": [],
   "codeowners": ["@chrisbloecker"],
-  "requirements": ["https://github.com/chrisbloecker/py-tfe-weather/archive/0.1.0.zip#py-tfe-weather==0.1.0"]
+  "requirements": ["https://github.com/chrisbloecker/py-tfe-weather/archive/0.1.0.zip#py-tfe-weather==0.1.0"],
+  "version": "0.1.0"
 }
