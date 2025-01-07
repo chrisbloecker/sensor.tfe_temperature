@@ -1,5 +1,5 @@
 """Platform for sensor integration."""
-from homeassistant.const import TEMP_CELSIUS
+from homeassistant.const import UnitOfTemperature.CELSIUS
 from homeassistant.helpers.entity import Entity
 
 from py_tfe_weather import get_temperature
@@ -30,7 +30,7 @@ class TFETemperature(Entity):
     @property
     def unit_of_measurement(self):
         """Return the unit of measurement."""
-        return TEMP_CELSIUS
+        return UnitOfTemperature.CELSIUS
 
     def update(self):
         """Fetch new state data for the sensor.
