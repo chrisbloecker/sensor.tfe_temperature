@@ -1,5 +1,5 @@
 """Platform for sensor integration."""
-from homeassistant.const import UnitOfTemperature.CELSIUS
+from homeassistant.const import UnitOfTemperature
 from homeassistant.helpers.entity import Entity
 
 from py_tfe_weather import get_temperature
